@@ -10,7 +10,8 @@ body,
 .p-flexpane_header,
 .p-trouble_loading_overlay,
 .p-trouble_loading,
-.p-workspace__primary_view_body {
+.p-workspace__primary_view_body,
+footer {
   background: #222222 !important;
 }
 body,
@@ -28,7 +29,8 @@ body,
 .c-message_attachment__author_name.c-link--button:hover,
 .channel_header__title__info,
 .p-trouble_loading_overlay,
-.p-trouble_loading {
+.p-trouble_loading,
+.msg_input, {
   color: #cccccc !important;
 }
 .c-message--hover:hover {
@@ -120,7 +122,9 @@ div[role="presentation"].c-menu_item__link_icon,
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before,
 pre,
 code,
-.c-message_list__unread_divider__label {
+.c-message_list__unread_divider__label,
+.msg_input,
+#primary_file_button {
   background: #333333 !important;
 }
 .p-classic_nav__model__title__info__members,
