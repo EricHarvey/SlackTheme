@@ -30,7 +30,8 @@ body,
 .channel_header__title__info,
 .p-trouble_loading_overlay,
 .p-trouble_loading,
-#msg_input {
+#msg_input,
+.c-message__editor__input {
   color: #cccccc !important;
 }
 .c-message--hover:hover {
@@ -124,7 +125,8 @@ pre,
 code,
 .c-message_list__unread_divider__label,
 #msg_input,
-#primary_file_button {
+#primary_file_button,
+.c-message__editor__input {
   background: #333333 !important;
 }
 .p-classic_nav__model__title__info__members,
