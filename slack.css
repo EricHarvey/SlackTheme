@@ -145,7 +145,8 @@ code,
 .ql-editor > p {
   background: none !important;
 }
-.p-emoji_picker__group_tab--active:hover {
+.p-emoji_picker__group_tab--active:hover,
+.c-message--highlight, .c-message--highlight_yellow_bg {
   background: #444444 !important;
 }
 .p-emoji_picker__group_tab:hover {
@@ -218,3 +219,4 @@ code,
   color: #cccccc !important;
   caret-color: #cccccc !important;
 }
+.c-message--highlight, .c-message--highlight_yellow_bg
