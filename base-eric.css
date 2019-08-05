@@ -104,8 +104,42 @@ a[role="link"]:visited {
 .p-flexpane_header,
 .p-downloads_list__shift_hint,
 .p-download_item__link--show,
+div[role="presentation"],
+div[data-qa="message_container"],
+.p-threads_view__default_background,
 div.ql-editor {
   background: #222 !important;
+}
+
+.p-threads_view_root {
+  border: 1px solid #555;
+  border-bottom: none;
+}
+
+.p-threads_view_reply {
+  border: 1px solid #555;
+  border-top: none;
+  border-bottom: none;
+}
+
+.p-threads_view__footer {
+  border: 1px solid #555;
+  border-top: none;
+}
+
+.p-threads_view__divider_label {
+  background: #444;
+  color: #fff;
+}
+
+.p-threads_view__divider_line {
+  border-top: 1px solid #444;
+}
+
+.p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+  background: #333;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
 }
 
 .p-download_item, .p-download_item__link--show, .c-pillow_file {
@@ -152,6 +186,22 @@ li.p-jumper__row[aria-selected="true"] {
   background-color: #222;
 }
 
+.p-message_input_field {
+  background: #222 !important;
+  border-color: #424242 !important;
+}
+
+button.p-message_input_file_button {
+  background: #545454 !important;
+  border-color: #424242 !important;
+  color: #949494 !important;
+}
+
+button.p-message_input_file_button:hover {
+  background: #424242 !important;
+  color: #fff !important;
+}
+
 .c-search_message__body, .c-pillow_file__title {
   color: #fff;
 }
@@ -181,12 +231,39 @@ span[style="background-image: url(https://emoji.slack-edge.com/T0XKK565Q/whappa/
 }
 
 button[aria-label="React with whappa"], button[aria-label="React with wappah"], button[aria-label="React with woot woot"], span[data-codepoints="whappa"], span[data-codepoints="wappah"], span[data-codepoints="woot_woot"] {
+  display: none !important;
+}
+
+.c-scrollbar__track {
   display: none;
 }
 
-b[data-stringify-prefix="*"] {
-  display: none !important;
+button#settings-button {
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 10pt;
+  background: #222;
+  color: #ddd;
+  width: 18px;
+  height: 18px;
+  z-index: 9998;
 }
+
+div#settings-button-container {
+  text-align: right;
+  z-index: 9999;
+  position: absolute;
+  top: 34px;
+  right: 16px;
+}
+
+.loading {
+  background: #222 !important;
+}
+
+/* b[data-stringify-prefix="*"] {
+  display: none !important;
+} */
 
 a[data-message-sender="U3M8891V5"] { /* Bharath */
   color: #5771ff !important;
@@ -242,6 +319,9 @@ a[data-message-sender="UFX3LPZS9"] { /* Harshil */
 }
 a[data-message-sender="UGB100S8L"] { /* Haiting */
   color:rgb(0, 184, 129) !important;
+}
+a[data-message-sender="UJHCMH1P1"] { /* Mark */
+  color:rgb(163, 130, 253) !important;
 }
 /* a[data-message-sender="UFCN2ETFB"]:hover:before {
   content: '';
