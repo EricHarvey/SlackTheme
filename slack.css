@@ -30,7 +30,7 @@ body,
 .channel_header__title__info,
 .p-trouble_loading_overlay,
 .p-trouble_loading,
-.msg_input, {
+#msg_input {
   color: #cccccc !important;
 }
 .c-message--hover:hover {
@@ -123,7 +123,7 @@ div[role="presentation"].c-menu_item__link_icon,
 pre,
 code,
 .c-message_list__unread_divider__label,
-.msg_input,
+#msg_input,
 #primary_file_button {
   background: #333333 !important;
 }
