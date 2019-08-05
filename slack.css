@@ -11,7 +11,7 @@ body,
 .p-trouble_loading_overlay,
 .p-trouble_loading,
 .p-workspace__primary_view_body,
-footer {
+#footer {
   background: #222222 !important;
 }
 body,
