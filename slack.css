@@ -67,8 +67,7 @@ a[data-message-sender="UAU3VA7JB"]:after {
   line-height: initial;
   text-indent: initial;
 }
-a[data-message-sender="U0XK8MGFP"] {
-  /* Justin */
+a[data-message-sender="U0XK8MGFP"] { /* Justin */
   color: #c50bb4 !important;
 }
 a[data-message-sender="U0XK8MGFP"]:after {
@@ -77,29 +76,41 @@ a[data-message-sender="U0XK8MGFP"]:after {
 a[data-message-sender="U0XK8MGFP"]:hover:after {
   content: ' Biiiiitch';
 }
-a[data-message-sender="U1LDS3P4H"] {
-  /* Yash */
+a[data-message-sender="UEEMUVD5M"]:hover:after {
+  content: ' aka Amazing Lover';
+}
+a[data-message-sender="U1LDS3P4H"] { /* Yash */
   color: #e42b2b !important;
 }
-a[data-message-sender="U7UKE4JN4"] {
-  /* Emma */
+a[data-message-sender="U7UKE4JN4"] { /* Emma */
   color: #e4a62b !important;
 }
-a[data-message-sender="UB1BEA42X"] {
-  /* Bill */
-  color: #00a9bd !important;
+a[data-message-sender="UB1BEA42X"] { /* Bill */
+  color:#00a9bd !important;
 }
-a[data-message-sender="U322PS3FF"] {
-  /* Sandip */
-  color: #00c7c1 !important;
+a[data-message-sender="U322PS3FF"] { /* Sandip */
+  color:#00c7c1 !important;
 }
-a[data-message-sender="UDSAFEE2D"] {
-  /* Victoria */
+a[data-message-sender="UDSAFEE2D"] { /* Victoria */
   color: #c7002b !important;
 }
-a[data-message-sender="UEEMUVD5M"] {
-  /* Jatin */
-  color: #c75a00 !important;
+a[data-message-sender="UEEMUVD5M"] { /* Jatin */
+  color:#c75a00 !important;
+}
+a[data-message-sender="UFCN2ETFB"] { /* Ashwin */
+  color:hotpink !important;
+}
+a[data-message-sender="UFCN2ETFB"]:hover:after {
+  content: ' aka Tuff Desperado';
+}
+a[data-message-sender="UFX3LPZS9"] { /* Harshil */
+  color:rgb(238, 255, 0) !important;
+}
+a[data-message-sender="UGB100S8L"] { /* Haiting */
+  color:rgb(0, 184, 129) !important;
+}
+a[data-message-sender="UJHCMH1P1"] { /* Mark */
+  color:rgb(163, 130, 253) !important;
 }
 .p-channel_details__similar_channels_channel_link,
 .p-channel_details__similar_channels_channel_link:hover,
