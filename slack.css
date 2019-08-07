@@ -11,7 +11,8 @@ body,
 .p-trouble_loading_overlay,
 .p-trouble_loading,
 .p-workspace__primary_view_body,
-#footer {
+#footer,
+.p-threads_view__default_background {
   background: #222222 !important;
 }
 body,
@@ -126,7 +127,8 @@ code,
 .c-message_list__unread_divider__label,
 #msg_input,
 #primary_file_button,
-.c-message__editor__input {
+.c-message__editor__input,
+.c-texty_autocomplete__body {
   background: #333333 !important;
 }
 .p-classic_nav__model__title__info__members,
@@ -219,4 +221,6 @@ code,
   color: #cccccc !important;
   caret-color: #cccccc !important;
 }
-.c-message--highlight, .c-message--highlight_yellow_bg
+.c-texty_autocomplete__result_highlight {
+  background: #555555 !important;
+}
