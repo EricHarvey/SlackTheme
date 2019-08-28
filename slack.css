@@ -299,6 +299,15 @@ code,
     caret-color: #cccccc !important;
 }
 
+.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+    background-color: #333 !important;
+    color: #ff3333 !important;
+}
+
+.CodeMirror-code>div {
+    background-color: #333 !important;
+}
+
 .c-texty_autocomplete__result_highlight {
     background: #555555 !important;
 }
