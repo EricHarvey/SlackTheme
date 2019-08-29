@@ -84,11 +84,15 @@ a[data-message-sender="U0XK8MGFP"] {
 }
 
 a[data-message-sender="U0XK8MGFP"]:after {
-    content: ' B*tch';
+    content: 'I\'m CEO, B*tch';
+    color: #c50bb4 !important;
+    display: block;
+    line-height: initial;
+    text-indent: initial;
 }
 
 a[data-message-sender="U0XK8MGFP"]:hover:after {
-    content: ' Biiiiitch';
+    content: 'I\'m CEO, Biiiiitch';
 }
 
 a[data-message-sender="UEEMUVD5M"]:hover:after {
