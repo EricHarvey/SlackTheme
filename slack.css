@@ -78,7 +78,7 @@ a[data-message-sender="UAU3VA7JB"]:after {
     text-indent: initial;
 }
 
-a[data-message-sender="U0XK8MGFP"] {
+a[data-message-sender="U0XK8MGFP"].c-link.c-message__sender_link {
     /* Justin */
     color: #c50bb4 !important;
     line-height: 0;
