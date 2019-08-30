@@ -3,6 +3,11 @@ body {
     font-family: 'Manjari', 'Slack-Lato', sans-serif !important;
 }
 
+code,
+pre {
+    font-family: 'Operator Mono', 'Hack', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace!important;
+}
+
 body,
 .c-virtual_list__scroll_container,
 .p-image_viewer,
