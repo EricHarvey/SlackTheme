@@ -36,7 +36,8 @@ body,
 .p-trouble_loading_overlay,
 .p-trouble_loading,
 #msg_input,
-.c-message__editor__input {
+.c-message__editor__input,
+.c-search_message__body {
     color: #cccccc !important;
 }
 
@@ -338,4 +339,9 @@ code,
 .c-tabs__tab.c-tabs__tab--active,
 .c-tabs__tab:active {
     color: #fff;
+}
+
+.c-message_group {
+    border: 1px solid #555 !important;
+    background-color: #444 !important;
 }
