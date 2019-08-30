@@ -184,7 +184,9 @@ code,
 #primary_file_button,
 .c-message__editor__input,
 .c-texty_autocomplete__body,
-.p-threads_footer__input .p-message_input_field {
+.p-threads_footer__input .p-message_input_field,
+.c-search,
+.c-search__tabs {
     background: #333333 !important;
 }
 
@@ -322,4 +324,18 @@ code,
 
 .c-texty_autocomplete__result_highlight {
     background: #555555 !important;
+}
+
+.c-tabs__tab_menu {
+    box-shadow: none !important;
+}
+
+.c-tabs__tab {
+    color: #ccc;
+}
+
+.c-tabs__tab:hover,
+.c-tabs__tab.c-tabs__tab--active,
+.c-tabs__tab:active {
+    color: #fff;
 }
