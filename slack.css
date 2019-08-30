@@ -49,7 +49,8 @@ body,
 .c-search_autocomplete__member .c-unified_member__name,
 .c-team__display-name,
 .c-unified_member__display-name,
-.c-usergroup__handle {
+.c-usergroup__handle,
+.c-sidebar_menu__list_item {
     color: #dddddd;
 }
 
@@ -187,7 +188,9 @@ code,
 .c-texty_autocomplete__body,
 .p-threads_footer__input .p-message_input_field,
 .c-search,
-.c-search__tabs {
+.c-search__tabs,
+.p-prefs_modal,
+.c-fullscreen_modal__header {
     background: #333333 !important;
 }
 
@@ -344,4 +347,8 @@ code,
 .c-message_group {
     border: 1px solid #555 !important;
     background-color: #444 !important;
+}
+
+.p-prefs_modal__content_container {
+    color: #ccc;
 }
