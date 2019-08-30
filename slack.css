@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 body {
-    font-family: 'Manjari';
+    font-family: 'Manjari', 'Slack-Lato', sans-serif !important;
 }
 
 body,
