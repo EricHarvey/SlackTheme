@@ -25,7 +25,9 @@ footer.workspace__primary_view_footer,
 #footer,
 .p-threads_view__default_background,
 .c-message--ephemeral,
-.c-message--sli_highlight_negative {
+.c-message--sli_highlight_negative,
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: #222222 !important;
 }
 
